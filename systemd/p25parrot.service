@@ -4,6 +4,7 @@ Description=P25 Parrot Service
 # Description=N4IRS 04/20/2018
 
 After=netcheck.service
+Requires=netcheck.service
 
 [Service]
 Type=simple
